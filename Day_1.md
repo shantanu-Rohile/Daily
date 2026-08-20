@@ -134,5 +134,25 @@ step 5 : Machine code is sent to the computer it process it and then send result
 - Python modules is simply a Python File ```(.py)``` containing code that can be resused in another python program. 
 
 ### **Q9. What are python namespaces?**
+
+- Namespace is a system that organizes names and prevent naming conflicts.
+
+
+```
+                 PYTHON
+                   │
+       ┌───────────┼────────────┐
+       ↓           ↓            ↓
+   Built-in      Global       Local
+  namespace    namespace    namespace
+       │           │            │
+     print         x            y
+     len           name         z
+     int           greet
+
+```
+
+- A namespace is not a module. A namespace is essentially a mapping from names to objects.
+
 ### **Q10.garbage collector?**
 - The garbage collector (GC) is a part of Python that automatically finds and removes objects from memory that are no longer being used.
