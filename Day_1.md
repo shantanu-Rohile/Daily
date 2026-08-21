@@ -155,4 +155,4 @@ step 5 : Machine code is sent to the computer it process it and then send result
 - A namespace is not a module. A namespace is essentially a mapping from names to objects.
 
 ### **Q10.garbage collector?**
-- The garbage collector (GC) is a part of Python that automatically finds and removes objects from memory that are no longer being used.
+- The garbage collector is a part of Python that automatically finds and removes objects from memory that are no longer being used.
