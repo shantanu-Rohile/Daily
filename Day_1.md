@@ -1,4 +1,4 @@
-# JVM DAILY TASKS - >
+# JVM DAILY TASKS - (Python)
 
 ## DAY 1
 
