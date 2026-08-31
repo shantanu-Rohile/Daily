@@ -2,12 +2,12 @@
 
 ## DAY 1
 
-** Q1. What is Python? **
+**Q1. What is Python?**
 
 Python is a programming Langrage. It is programming language with easy to use English like syntax. Python is widely used in field of data due to libraries offered by python. 
 
 
-** Q2. Python is an interpreted language. Explain **
+**Q2. Python is an interpreted language. Explain**
 
 Python, Java, C++, C are not the native languages of computer, computer only understands the binary/machine language i.e. (0 and 1's).
 0 - no current
@@ -24,7 +24,7 @@ step 4 : The byte code is then sent to the python environment machine where it i
 step 5 : Machine code is sent to the computer it process it and then send result.
 
 
-** Q3. What is the difference between lists and tuples? **
+**Q3. What is the difference between lists and tuples?**
 
 - Lists are mutable but tuples are not
 - Tuples ()
@@ -32,7 +32,7 @@ step 5 : Machine code is sent to the computer it process it and then send result
 - Lists can not be used as dictionary keys but we can use Tuples as dictionary key.
 
 
-** Q4. What is pep 8? ** 
+**Q4. What is pep 8?** 
 
 - pep8 stands for Python Enhancement Proposal 8 
 - use 4 spaces for indentation 
