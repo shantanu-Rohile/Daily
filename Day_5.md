@@ -2,7 +2,7 @@
 
 ## DAY 5
 
-### 1: ** Add a list of elements to a set **
+### 1: **Add a list of elements to a set**
 
 ```Python
 
@@ -24,7 +24,7 @@ PS E:\JVM\0-JVM\Python JVM\Practice>
 
 ```
 
-### 2: ** Return a new set of identical items from two sets **
+### 2: **Return a new set of identical items from two sets**
 
 - We use ```copy()``` Function to create a copy of orignal set
 - and reason why we can't just do this ``` new_set = main_set ``` is that because although you are creating a new variable but at the end your new ``` new_Set ``` is also pointing towards the same object.
@@ -55,7 +55,7 @@ After appending 5 into c :  {1, 2, 3, 4}
 PS E:\JVM\0-JVM\Python JVM\Practice> 
 ```
 
-### 3: ** Get Only unique items from two sets **
+### 3: **Get Only unique items from two sets**
 
 - To get the elements of bot first and second set excluding duplicate values we have to use the union```(|)```
 
@@ -84,9 +84,9 @@ PS E:\JVM\0-JVM\Python JVM\Practice>
 
 ![Union](Assets/union.png)
 
-### 4: ** Update the first set with items that don’t exist in the second set **
-### 5: ** Remove items from the set at once **
-### 6: ** Return a set of elements present in Set A or B, but not both **
-### 7: ** Check if two sets have any elements in common. If yes, display the common elements **
-### 8: ** Update set1 by adding items from set2, except common items **
-### 9: ** Remove items from set1 that are not common to both set1 and set2 **
+### 4: **Update the first set with items that don’t exist in the second set**
+### 5: **Remove items from the set at once**
+### 6: **Return a set of elements present in Set A or B, but not both**
+### 7: **check if two sets have any elements in common. If yes, display the common elements**
+### 8: **Update set1 by adding items from set2, except common items**
+### 9: **Remove items from set1 that are not common to both set1 and set2**
