@@ -23,7 +23,7 @@
 
 4. Get Smallest Number in List
 
-5. Count Strings with Same Start and End
+5. Count Strings with Same Sstart and End
 
 ## (Python Core) 
 

@@ -31,3 +31,5 @@
 5. joining strings
 
 6. cube value
+
+7. sorting a group of strings
