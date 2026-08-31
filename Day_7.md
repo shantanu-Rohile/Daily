@@ -35,7 +35,7 @@
 - Control statement are the one's who control the flow of program
 - ex : ``` if ``` , ```else``` and ```elif```
 
-4. explain with one example each
+### 4. **explain with one example each**
 
 - if statement
 
