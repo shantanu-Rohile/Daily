@@ -22,7 +22,7 @@
 - What Lists looks like  ->
     - numbers = [10, 20, 30, 40]
     - A python list is essentially a references (Pointers) to Python Objects. Because as we know know everything in python is object.
-    '''
+    ```
             numbers
         │
         ▼
@@ -32,7 +32,7 @@
             │        │        │        │
             ▼        ▼        ▼        ▼
         10       20       30       40
-    '''
+    ```
     - so lists itself does not contain any integers but refrences to the objects.
     - And each python is itself object with extra data attached to it.
 - why does Python do this?
