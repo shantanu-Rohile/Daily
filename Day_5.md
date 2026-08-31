@@ -85,8 +85,113 @@ PS E:\JVM\0-JVM\Python JVM\Practice>
 ![Union](Assets/union.png)
 
 ### 4: **Update the first set with items that don’t exist in the second set**
+
+- we use ``` first_set.diffrence_update(second_set) ``` or simple ``` first_set = first_set - second_set ```
+
+```Python 
+a = {1,2,3,4}
+
+b = {3,4,5,6,7,8}
+
+
+# a = a-b
+
+a.difference_update(b)
+
+print(a)
+```
+
+```
+PS E:\JVM\0-JVM\Python JVM\Practice> python 12.py
+{1, 2}
+PS E:\JVM\0-JVM\Python JVM\Practice> 
+```
 ### 5: **Remove items from the set at once**
+
+- we ```clear()``` fundtion
+
+```Python
+a = {1,2,3,4}
+
+b = {3,4,5,6,7,8}
+
+
+a.clear()
+
+print(a)
+```
+
+```
+PS E:\JVM\0-JVM\Python JVM\Practice> python 13.py
+set()
+PS E:\JVM\0-JVM\Python JVM\Practice> 
+```
 ### 6: **Return a set of elements present in Set A or B, but not both**
+- we use symmetric difference ``` first_set.symmetric_difference(second_set) ```
+
+```Python
+a = {1,2,3,4,5,6}
+
+
+b = {4,5,6,7,8,9,10}
+
+
+
+c = a.symmetric_difference(b)
+
+print(c)
+```
+
+``` 
+PS E:\JVM\0-JVM\Python JVM\Practice> python 14.py
+{1, 2, 3, 7, 8, 9, 10}
+PS E:\JVM\0-JVM\Python JVM\Practice> 
+```
 ### 7: **check if two sets have any elements in common. If yes, display the common elements**
+
+- we use intersection for this
+
+```Python 
+a = {1,2,3,4}
+
+b = {3,4,5,6}
+
+
+print(a & b)
+```
+
+```
+PS E:\JVM\0-JVM\Python JVM\Practice> python 15.py
+{3, 4}
+PS E:\JVM\0-JVM\Python JVM\Practice> 
+```
+
 ### 8: **Update set1 by adding items from set2, except common items**
+
+```Python
+set1 = se1 + (set2-set1)
+```
 ### 9: **Remove items from set1 that are not common to both set1 and set2**
+
+
+```Python
+
+
+set_1 = {1,2,3,4,5,6,7}
+
+
+
+set_2 = {3,4,5,6,7,8,9,10}
+
+
+set1= set_1.intersection(set_2)
+
+print(set1)
+```
+
+```
+PS E:\JVM\0-JVM\Python JVM\Practice> python 16.py
+{3, 4, 5, 6, 7}
+PS E:\JVM\0-JVM\Python JVM\Practice> 
+
+``
