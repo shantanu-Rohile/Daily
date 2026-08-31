@@ -1,6 +1,6 @@
 # JVM DAILY TASKS - (Python)
 
-## DAY 5
+## DAY 6
 
 slicing
 
