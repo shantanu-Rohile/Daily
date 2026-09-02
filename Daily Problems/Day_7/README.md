@@ -13,15 +13,19 @@
 15. Get Maximum and Minimum Values of a Dictionary
 
 
-## Strings (Wp3resource 20-25) 
+## Strings (Wp3resource 25-20) 
 
-21. Uppercase string if 2+ uppercase chars in first 4.
+25. Implement Caesar cipher encryption.
 
-22. Sort string lexicographically.
+26. Display formatted text (width=50).
 
-23. Remove newline from a string.
+27. Remove indentation from text
 
-24. Check if string starts with specified chars.
+28. Add prefix to each line of text.
+
+29. Set first line indentation.
+
+30. Print numbers with 2 decimal places.
 
 ## LeetCode
 
