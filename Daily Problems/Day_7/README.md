@@ -13,7 +13,7 @@
 15. Get Maximum and Minimum Values of a Dictionary
 
 
-## Strings (Wp3resource 25-20) 
+## Strings (Wp3resource 25-30) 
 
 25. Implement Caesar cipher encryption.
 
