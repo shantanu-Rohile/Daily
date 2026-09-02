@@ -22,10 +22,6 @@
 
 25. Select Random Item from List
 
-26. Check Circularly Identical Lists
-
-
-
 ## Strings (Wp3resource 20-25) 
 
 21. Uppercase string if 2+ uppercase chars in first 4.

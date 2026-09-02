@@ -1,0 +1,28 @@
+# Problems Solved 2/9/2026
+
+## Dictionary (wp3resource 11-15)
+
+11. Multiply All Items in a Dictionary
+
+12. Remove a Key from a Dictionary
+
+13. Map Two Lists into a Dictionary
+
+14. Sort Dictionary by Key
+
+15. Get Maximum and Minimum Values of a Dictionary
+
+
+## Strings (Wp3resource 20-25) 
+
+21. Uppercase string if 2+ uppercase chars in first 4.
+
+22. Sort string lexicographically.
+
+23. Remove newline from a string.
+
+24. Check if string starts with specified chars.
+
+## LeetCode
+
+3875. Construct Uniform Parity Array I
