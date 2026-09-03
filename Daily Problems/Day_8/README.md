@@ -26,30 +26,23 @@
 
 31. Print numbers with sign (2 decimals).
 
-Write a Python program to print the following numbers up to 2 decimal places with a sign.
-Click me to see the sample solution
-
 32. Print numbers without decimal places.
-
-Write a Python program to print the following positive and negative numbers with no decimal places.
-Click me to see the sample solution
 
 33. Print integers with left-padded zeros.
 
-Write a Python program to print the following integers with zeros to the left of the specified width.
-Click me to see the sample solution
-
 34. Print integers with * right-padded.
-
-Write a Python program to print the following integers with '*' to the right of the specified width.
-Click me to see the sample solution
 
 35. Display number with comma separator.
 
-Write a Python program to display a number with a comma separator.
-Click me to see the sample solution
-
 ## Lists (wp3resource 31-35)
+31. Count Elements in List Within Range
 
-## LeetCode
+32. Check if List Contains Sublist
+
+33. Generate All Sublists
+
+34. Compute Primes Using Sieve of Eratosthenes
+
+35. Create List with Range Concatenation
+
 
