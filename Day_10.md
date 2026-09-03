@@ -1,6 +1,6 @@
 # JVM DAILY TASKS - (Python)
 
-## DAY 7
+## DAY 10
 
 **
 ### 1. **What is meant by the term OOPs? ...**
