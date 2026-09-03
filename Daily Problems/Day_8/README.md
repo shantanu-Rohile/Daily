@@ -1,7 +1,6 @@
 # Problems Solved 3/9/2026
 
 ## Sets (1-10)
-
 1. Create a Set
 
 2. Iterate Over Sets
@@ -44,5 +43,3 @@
 34. Compute Primes Using Sieve of Eratosthenes
 
 35. Create List with Range Concatenation
-
-
