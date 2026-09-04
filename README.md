@@ -11,4 +11,6 @@
 | LeetCode | 6 | N/A |
 
 
-# Total Question Solved : 113
+# Total Question Solved : 113/300
+
+## LeetCode : [Clcik Here](https://leetcode.com/u/Shantanu_Rohile_Pyton/)
