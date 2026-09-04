@@ -13,4 +13,4 @@
 
 # Total Question Solved : 113/300
 
-## LeetCode : [Clcik Here](https://leetcode.com/u/Shantanu_Rohile_Pyton/)
+## LeetCode : [click Here](https://leetcode.com/u/Shantanu_Rohile_Pyton/)
