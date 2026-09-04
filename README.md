@@ -10,7 +10,6 @@
 | Python Core | 7 | 55 |
 | LeetCode | 6 | N/A |
 
-
 # Total Question Solved : 113/300
 
 ### LeetCode : **[click here](https://leetcode.com/u/Shantanu_Rohile_Pyton/)**
