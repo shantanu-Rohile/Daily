@@ -12,6 +12,19 @@
 
 15. Find the Length of a Set
 
-Write a Python program to find the length of a set.
+# Tuple (16-22)
 
-Click me to see the sample solution
+16. Convert a Tuple to a Dictionary
+
+17. Unzip a List of Tuples into Individual Lists
+
+18. Reverse a Tuple
+
+19. Convert a List of Tuples into a Dictionary
+
+20. Print Tuple with String Formatting
+
+21. Replace the Last Value of Tuples in a List
+
+22. Remove Empty Tuple(s) from a List of Tuples
+
