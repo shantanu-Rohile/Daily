@@ -10,10 +10,12 @@
 | Dictionary | 15 | 15 |
 | Map | 9 | N/a |
 | Filter | 1 | N/a |
+| File Handling | 15 | 15 |
+| OOPS | 5 | 15 |
 | Python Core | 7 | 55 |
 | LeetCode | 6 | N/A |
 
 
-# Total Question Solved : 130/300
+# Total Question Solved : 135/300
 
 ### LeetCode : **[click here](https://leetcode.com/u/Shantanu_Rohile_Pyton/)**
