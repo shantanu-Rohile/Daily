@@ -11,11 +11,11 @@
 | Map | 9 | N/a |
 | Filter | 1 | N/a |
 | File Handling | 15 | 15 |
-| OOPS | 8 | 15 |
+| OOPS | 11 | 11 |
 | Python Core | 7 | 55 |
 | LeetCode | 6 | N/A |
 
 
-# Total Question Solved : 135/300
+# Total Question Solved : 140/300
 
 ### LeetCode : **[click here](https://leetcode.com/u/Shantanu_Rohile_Pyton/)**
