@@ -11,7 +11,7 @@
 | Map | 9 | N/a |
 | Filter | 1 | N/a |
 | File Handling | 15 | 15 |
-| OOPS | 5 | 15 |
+| OOPS | 8 | 15 |
 | Python Core | 7 | 55 |
 | LeetCode | 6 | N/A |
 
