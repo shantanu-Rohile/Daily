@@ -4,9 +4,9 @@
 | Topic | Progress | Limit |
 | :--- | :---: | :---: |
 | String | 35 | 60 |
-| List | 35 | 120 |
+| List | 36 | 120 |
 | Set | 15 | All |
-| Tuple | 7 | All |
+| Tuple | 17 | All |
 | Dictionary | 15 | 15 |
 | Map | 9 | N/A |
 | Filter | 1 | N/A |
@@ -20,6 +20,6 @@
 
 
 
-# Total Question Solved : 156/300
+# Total Question Solved : 170/300
 
 ### LeetCode : **[click here](https://leetcode.com/u/Shantanu_Rohile_Pyton/)**
