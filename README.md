@@ -5,9 +5,9 @@
 | :--- | :---: | :---: |
 | String | 35 | 60 |
 | List | 35 | 120 |
-| Set | 15 | 15 |
+| Set | 15 | All |
 | Tuple | 7 | All |
-| Dictionary | 15 | All |
+| Dictionary | 15 | 15 |
 | Map | 9 | N/A |
 | Filter | 1 | N/A |
 | Try & Exception | 0 | 10–15 |
