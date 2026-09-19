@@ -16,10 +16,10 @@
 | OOPS | 11 | 11 |
 | Python Core | 7 | 55 |
 | LeetCode | 6 | N/A |
-| Pandas | 0 | All |
+| Pandas | 10 | All |
 
 
 
-# Total Question Solved : 170/300
+# Total Question Solved : 180/300
 
 ### LeetCode : **[click here](https://leetcode.com/u/Shantanu_Rohile_Pyton/)**
