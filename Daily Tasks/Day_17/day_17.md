@@ -9,10 +9,11 @@ sql day 1
 3. What is the difference between BETWEEN and IN operators in SQL
 
 - BETWEEN
-![BETWEEN](Daily Tasks\Day_17\Images\between.png)
+![BETWEEN](Daily Tasks/Day_17/Images/between.png)
 
 - IN
-![IN](Daily Tasks\Day_17\Images\in.png)
+![IN](Daily Tasks/Day_17/Images/in.png)
+
 
 
 4. What do you mean by data definition language? 
