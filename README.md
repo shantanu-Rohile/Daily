@@ -10,7 +10,7 @@
 | Dictionary | 15 | 15 |
 | Map | 9 | N/A |
 | Filter | 1 | N/A |
-| Try & Exception | 0 | 10–15 |
+| Try & Exception | 10 | 10 |
 | Lambda & Decorators | 0 | 10–15 |
 | File Handling | 15 | 15 |
 | OOPS | 11 | 11 |
