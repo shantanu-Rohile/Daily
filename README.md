@@ -20,6 +20,6 @@
 
 
 
-# Total Question Solved : 180/300
+# Total Question Solved : 190/300
 
 ### LeetCode : **[click here](https://leetcode.com/u/Shantanu_Rohile_Pyton/)**
