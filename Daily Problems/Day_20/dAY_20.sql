@@ -1,0 +1,84 @@
+show databases;
+
+CREATE TABLE DEPT (
+    DEPTNO INT PRIMARY KEY,
+    DNAME VARCHAR(50) NOT NULL,
+    LOC VARCHAR(50)
+);
+
+CREATE TABLE EMP (
+    EMPNO INT PRIMARY KEY,
+    ENAME VARCHAR(50) NOT NULL,
+    JOB VARCHAR(50),
+    MGR INT,
+    HIREDATE DATE,
+    SAL DECIMAL(10,2),
+    COMM DECIMAL(10,2),
+    DEPTNO INT,
+    FOREIGN KEY (DEPTNO) REFERENCES DEPT(DEPTNO)
+);
+
+INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES
+(10, 'ACCOUNTING', 'NEW YORK'),
+(20, 'RESEARCH', 'DALLAS'),
+(30, 'SALES', 'CHICAGO'),
+(40, 'OPERATIONS', 'BOSTON'),
+(50, 'IT', 'SAN FRANCISCO');
+
+
+INSERT INTO EMP
+(EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO)
+VALUES
+(1001, 'ADAMS',  'PRESIDENT',  NULL, '2015-01-10', 9000.00, NULL, 10),
+
+(1002, 'BLAKE',  'MANAGER',    1001, '2016-03-15', 6000.00, NULL, 30),
+(1003, 'CLARK',  'MANAGER',    1001, '2016-05-20', 5500.00, NULL, 10),
+(1004, 'JONES',  'MANAGER',    1001, '2017-02-10', 5800.00, NULL, 20),
+(1005, 'FORD',   'MANAGER',    1001, '2018-07-01', 5700.00, NULL, 50),
+
+(1006, 'SMITH',  'CLERK',      1002, '2019-01-12', 2800.00, NULL, 30),
+(1007, 'ALLEN',  'SALESMAN',   1002, '2019-04-18', 3200.00, 500.00, 30),
+(1008, 'WARD',   'SALESMAN',   1002, '2020-06-22', 3000.00, 700.00, 30),
+(1009, 'MARTIN', 'SALESMAN',   1002, '2021-03-11', 3100.00, 400.00, 30),
+
+(1010, 'SCOTT',  'ANALYST',    1004, '2019-08-25', 4500.00, NULL, 20),
+(1011, 'MILLER', 'CLERK',      1004, '2020-02-14', 2900.00, NULL, 20),
+(1012, 'TURNER', 'ANALYST',    1004, '2021-09-05', 4300.00, NULL, 20),
+(1013, 'ADAMS2', 'CLERK',      1004, '2022-01-19', 2700.00, NULL, 20),
+
+(1014, 'KING',   'ACCOUNTANT', 1003, '2019-11-30', 4200.00, NULL, 10),
+(1015, 'JAMES',  'CLERK',      1003, '2020-05-16', 2600.00, NULL, 10),
+(1016, 'FORD2',  'ACCOUNTANT',1003, '2021-07-21', 3900.00, NULL, 10),
+
+(1017, 'JACK',   'DEVELOPER',  1005, '2020-10-10', 5000.00, NULL, 50),
+(1018, 'ROSE',   'DEVELOPER',  1005, '2021-12-12', 4800.00, NULL, 50),
+(1019, 'MIKE',   'SUPPORT',    1005, '2022-04-25', 3500.00, NULL, 50),
+(1020, 'ANNA',   'DEVELOPER',  1005, '2023-08-15', 4600.00, NULL, 50);
+
+
+-- 1. Display the dept information from department table.
+SELECT * FROM dept;
+
+-- 1. Display the details of all employees.
+SELECT * FROM emp;
+
+-- 3. Display the name and job for all employees.
+
+SELECT ENAME,JOB FROM emp;
+
+-- 4. Display name and salary for all employees.
+
+SELECT ENAME,SAL FROM emp;
+
+-- 5. Display employee number and total salary for each employee.
+
+SELECT ENAME,SAL FROM emp;
+SELECT EMPNO,SAL+IFNULL(COMM,0) FROM emp;
+
+-- 6. Display employee name and annual salary for all employees.
+
+SELECT ENAME,12*(SAL+IFNULL(COMM,0)) FROM EMP;
+
+-- 7. Display the names of all employees who are working in department number 10.
+
+SELECT ENAME FROM emp where DEPTNO =10;
